@@ -3,7 +3,7 @@
 # === Variables ===
 SCRIPT_NAME="Mac Software Installer and Customizer"
 VERSION="1.0"
-AUTHOR="Yeti"
+AUTHOR="mehteh"
 BREW_SCRIPT="https://raw.githubusercontent.com/mehteh/musical-octo-disco/main/setup-scripts/install-brew.sh"
 
 
