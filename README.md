@@ -10,7 +10,7 @@ This script installs Homebrew, the package manager for macOS.
 
 1. Clone this repository or download the script directly:
    ```bash
-   curl -O https://raw.githubusercontent.com/mehteh/musical-octo-disco/setup-scripts/main/install-brew.sh
+   curl -O https://raw.githubusercontent.com/mehteh/musical-octo-disco/main/setup-scripts/install-brew.sh
    ```
 
 2. Make the script executable:
