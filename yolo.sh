@@ -14,7 +14,7 @@ echo "  Version: $VERSION by $AUTHOR"
 echo "===================================="
 
 cd $WORKINGDIR
-wget -qO- $BREW_SCRIPT | bash
+curl $BREW_SCRIPT | bash
 
 
 
