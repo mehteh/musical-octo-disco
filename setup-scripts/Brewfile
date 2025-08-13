@@ -1,132 +1,106 @@
 tap "audiofilter/spuc"
 tap "dracula/install"
-tap "homebrew/aliases"
-tap "homebrew/bundle"
 tap "homebrew/command-not-found"
-tap "homebrew/services"
 tap "homebrew/test-bot"
 tap "nlohmann/json"
 tap "pothosware/pothos"
 tap "romkatv/powerlevel10k"
 tap "rxseger/hackrf"
 tap "symfony-cli/tap"
-# Driver and tools for a software-defined radio
 brew "airspy"
-# Color management engine supporting ICC profiles
 brew "little-cms2"
-# Cross-platform make
 brew "cmake"
-# Graphics library to dynamically manipulate images
 brew "gd"
-# General-purpose scripting language
 brew "php"
-# Dependency Manager for PHP
 brew "composer"
-# Pack, ship and run any application as a lightweight container
 brew "docker", link: false
-# Isolated development environments using Docker
 brew "docker-compose"
-# Use Realtek DVB-T dongles as a cheap SDR
 brew "librtlsdr"
-# ADS-B Ground Station System for RTL-SDR
 brew "dump1090-mutability"
-# Make creating custom firmwares for ESP32/ESP8266 super easy
 brew "esphome"
-# Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# GitHub command-line tool
 brew "gh"
-# Git extension for versioning large files
 brew "git-lfs"
-# Package compiler and linker metadata toolkit
 brew "pkgconf"
-# Python 3 bindings for the Cairo graphics library
 brew "py3cairo"
-# GNOME Python bindings (based on GObject Introspection)
 brew "pygobject3"
-# SoapySDR RTL-SDR Support Module
 brew "soapyrtlsdr"
-# SDK for signal processing blocks to implement software radios
 brew "gnuradio"
-# Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Low cost software radio platform
 brew "hackrf"
-# Kubernetes package manager
 brew "helm"
-# Improved top (interactive process viewer)
 brew "htop"
-# C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@76"
-# Update of iperf: measures TCP, UDP, and SCTP bandwidth
 brew "iperf3"
-# Lightweight and flexible command-line JSON processor
 brew "jq"
-# USB 3.0 Superspeed Software Defined Radio Source
 brew "libbladerf"
-# Web and API based SMTP testing tool
 brew "mailhog", restart_service: :changed
-# Simple tool to make locally trusted development certificates
 brew "mkcert"
-# Fast, highly customisable system info script
 brew "neofetch"
-# Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
 brew "node"
-# Libraries for security-enabled client and server applications
 brew "nss"
-# Swiss-army knife of markup format conversion
 brew "pandoc"
-# Theme for zsh
 brew "powerlevel10k"
-# Python version management
 brew "pyenv"
-# Generic machine emulator and virtualizer
 brew "qemu"
-# Soak up standard input and write to a file
 brew "sponge"
-# User interface to the TELNET protocol
 brew "telnet"
-# Tool to build, change, and version infrastructure
 brew "terraform"
-# Programmatically correct mistyped console commands
 brew "thefuck"
-# Terminal multiplexer
 brew "tmux"
-# Internet file retriever
 brew "wget"
-# JavaScript package manager
 brew "yarn"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
-# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-# Lime suite device drivers, GUI, and SDR support
-brew "pothosware/pothos/limesuite"
-# Soapy SDR plugins for Airspy
-brew "pothosware/pothos/soapyairspy"
-# Soapy SDR plugin for Blade RF
-brew "pothosware/pothos/soapybladerf"
-# Soapy SDR plugin for Hack RF
-brew "pothosware/pothos/soapyhackrf"
-# Use any Soapy SDR remotely
-brew "pothosware/pothos/soapyremote"
-# Soapy SDR plugin for Skylark Iris Module
-brew "pothosware/pothos/soapyiris"
-# Soapy SDR plugin for PlutoSDR.
-brew "pothosware/pothos/soapyplutosdr"
-# Soapy SDR plugin for Red Pitaya
-brew "pothosware/pothos/soapyredpitaya"
-# Symfony CLI helps Symfony developers manage projects, from local code to remote infrastructure
 brew "symfony-cli/tap/symfony-cli"
-# App to build and share containerised applications and microservices
-cask "docker"
-# Dark theme for Steam
+cask "bitwarden"
+cask "discord"
 cask "dracula-steam"
-# Dark theme for Terminal.app
-cask "dracula-terminal"
-# Software-defined radio receiver powered by GNU Radio and Qt
+cask "google-chrome"
 cask "gqrx"
-# Interface for reading and syncing eBooks
-cask "kindle"
+cask "iterm2"
+cask "spotify"
+cask "steam"
+cask "visual-studio-code"
+vscode "aaron-bond.better-comments"
+vscode "bajdzis.vscode-twig-pack"
+vscode "bmewburn.vscode-intelephense-client"
+vscode "dracula-theme.theme-dracula"
+vscode "eamodio.gitlens"
+vscode "ecmel.vscode-html-css"
+vscode "esbenp.prettier-vscode"
+vscode "formulahendry.auto-rename-tag"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "gitlab.gitlab-workflow"
+vscode "grapecity.gc-excelviewer"
+vscode "hashicorp.terraform"
+vscode "james-yu.latex-workshop"
+vscode "magicstack.magicpython"
+vscode "michaelcurrin.auto-commit-msg"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.makefile-tools"
+vscode "ms-vscode.sublime-keybindings"
+vscode "redhat.vscode-yaml"
+vscode "rifi2k.format-html-in-php"
+vscode "run-at-scale.terraform-doc-snippets"
+vscode "shopify.ruby-lsp"
+vscode "techer.open-in-browser"
+vscode "twxs.cmake"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscode-icons-team.vscode-icons"
+vscode "vue.volar"
+vscode "wingrunr21.vscode-ruby"
+vscode "xabikos.javascriptsnippets"
+vscode "xdebug.php-debug"
+vscode "xdebug.php-pack"

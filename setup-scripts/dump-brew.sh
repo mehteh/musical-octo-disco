@@ -1,5 +1,5 @@
 #!/bin/bash
 
-brew bundle dump --global --force --file=./Brewfile
+brew bundle dump --force --file=./Brewfile
 
 
