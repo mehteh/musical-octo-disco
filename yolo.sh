@@ -18,6 +18,7 @@ echo "===================================="
 cd $WORKINGDIR
 curl $BREW_SCRIPT | bash
 curl -o ./Brewfile $BREWFILE
+brew install mas
 brew bundle --file ./Brewfile
 mkdir ~/Code
 cd ~/Code
