@@ -14,10 +14,14 @@ echo "  $SCRIPT_NAME"
 echo "  Version: $VERSION by $AUTHOR"
 echo "===================================="
 
+
 cd $WORKINGDIR
 curl $BREW_SCRIPT | bash
 curl -o ./Brewfile $BREWFILE
 brew bundle --file ./Brewfile
+mkdir ~/Code
+cd ~/Code
+git clone https://github.com/mehteh/musical-octo-disco.git
 
 
 
