@@ -10,7 +10,7 @@ This script installs Homebrew, the package manager for macOS.
 
 
    ```bash
-   curl https://raw.githubusercontent.com/mehteh/musical-octo-disco/main/yolo.sh | bash
+   curl -sL https://raw.githubusercontent.com/mehteh/musical-octo-disco/main/yolo.sh | bash
    ```
 
 

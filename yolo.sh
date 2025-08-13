@@ -18,8 +18,8 @@ echo "===================================="
 cd $WORKINGDIR
 curl $BREW_SCRIPT | bash
 curl -o ./Brewfile $BREWFILE
-brew install mas
-brew bundle --file ./Brewfile
+brew install mas --quiet
+brew bundle --file ./Brewfile --quiet
 mkdir ~/Code
 cd ~/Code
 git clone https://github.com/mehteh/musical-octo-disco.git
