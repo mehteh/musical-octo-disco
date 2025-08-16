@@ -23,8 +23,14 @@ brew bundle --file ./Brewfile --quiet
 mkdir ~/Code
 cd ~/Code
 git clone https://github.com/mehteh/musical-octo-disco.git
-
-
+mkdir dev.local\ SSL\ Cert
+cd dev.local\ SSL\ Cert
+mkcert -install
+mkcert dev.local
+openssl pkcs12 -export -out dev.local.pfx -inkey dev.local.key -in dev.local.crt -passout pass:
+cd ~/Code
+git clone https://github.com/dracula/iterm.git
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
 

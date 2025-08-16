@@ -19,10 +19,6 @@ brew "gd"
 brew "php"
 # Dependency Manager for PHP
 brew "composer"
-# Pack, ship and run any application as a lightweight container
-brew "docker", link: false
-# Isolated development environments using Docker
-brew "docker-compose"
 # Use Realtek DVB-T dongles as a cheap SDR
 brew "librtlsdr"
 # ADS-B Ground Station System for RTL-SDR
@@ -107,8 +103,14 @@ brew "yt-dlp"
 brew "symfony-cli/tap/symfony-cli"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Dark theme for Steam
 cask "dracula-steam"
+# Web browser
+cask "firefox"
+cask "font-hack-nerd-font"
+cask "font-powerline-symbols"
 # Web browser
 cask "google-chrome"
 # Software-defined radio receiver powered by GNU Radio and Qt
@@ -122,6 +124,7 @@ cask "steam"
 # Open-source code editor
 cask "visual-studio-code"
 mas "Bitwarden", id: 1352778147
+mas "Pixelmator Pro", id: 1289583905
 vscode "aaron-bond.better-comments"
 vscode "bajdzis.vscode-twig-pack"
 vscode "bmewburn.vscode-intelephense-client"
@@ -138,6 +141,7 @@ vscode "hashicorp.terraform"
 vscode "james-yu.latex-workshop"
 vscode "magicstack.magicpython"
 vscode "michaelcurrin.auto-commit-msg"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
