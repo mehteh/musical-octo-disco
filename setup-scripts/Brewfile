@@ -19,10 +19,14 @@ brew "gd"
 brew "php"
 # Dependency Manager for PHP
 brew "composer"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Use Realtek DVB-T dongles as a cheap SDR
 brew "librtlsdr"
 # ADS-B Ground Station System for RTL-SDR
 brew "dump1090-mutability"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Make creating custom firmwares for ESP32/ESP8266 super easy
 brew "esphome"
 # Play, record, convert, and stream audio and video
@@ -75,12 +79,16 @@ brew "node"
 brew "nss"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Theme for zsh
 brew "powerlevel10k"
 # Python version management
 brew "pyenv"
 # Generic machine emulator and virtualizer
 brew "qemu"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
 # Soak up standard input and write to a file
 brew "sponge"
 # User interface to the TELNET protocol
@@ -93,6 +101,8 @@ brew "thefuck"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
