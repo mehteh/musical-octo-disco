@@ -11,6 +11,10 @@ tap "symfony-cli/tap"
 brew "airspy"
 # Color management engine supporting ICC profiles
 brew "little-cms2"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Cross-platform make
 brew "cmake"
 # Graphics library to dynamically manipulate images
@@ -25,8 +29,8 @@ brew "coreutils"
 brew "librtlsdr"
 # ADS-B Ground Station System for RTL-SDR
 brew "dump1090-mutability"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
+# Simple command-line tool for creating clusters on Amazon EKS
+brew "eksctl"
 # Make creating custom firmwares for ESP32/ESP8266 super easy
 brew "esphome"
 # Play, record, convert, and stream audio and video
@@ -121,18 +125,28 @@ cask "dracula-steam"
 cask "firefox"
 cask "font-hack-nerd-font"
 cask "font-powerline-symbols"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Web browser
 cask "google-chrome"
 # Software-defined radio receiver powered by GNU Radio and Qt
 cask "gqrx"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# CAD application
+cask "librecad"
+# Collaboration platform for API development
+cask "postman"
 # Music streaming service
 cask "spotify"
+# System monitor for the menu bar
+cask "stats"
 # Video game digital distribution service
 cask "steam"
 # Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Bitwarden", id: 1352778147
 mas "Pixelmator Pro", id: 1289583905
 vscode "aaron-bond.better-comments"
