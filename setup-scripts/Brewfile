@@ -78,7 +78,7 @@ brew "mkcert"
 brew "neofetch"
 # Port scanning utility for large networks
 brew "nmap"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
@@ -112,6 +112,8 @@ brew "tmux"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Network analyzer and capture tool - without graphical user interface
+brew "wireshark"
 # JavaScript package manager
 brew "yarn"
 # Feature-rich command-line audio/video downloader
@@ -160,6 +162,7 @@ cask "steam"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "AdGuard for Safari", id: 1440147259
 mas "Bitwarden", id: 1352778147
 mas "Pixelmator Pro", id: 1289583905
 vscode "aaron-bond.better-comments"
