@@ -122,6 +122,8 @@ brew "yt-dlp"
 brew "symfony-cli/tap/symfony-cli"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
+# Photography workflow application and raw developer
+cask "darktable"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
@@ -158,6 +160,8 @@ cask "spotify"
 cask "stats"
 # Video game digital distribution service
 cask "steam"
+# Open-source media center
+cask "stremio"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
