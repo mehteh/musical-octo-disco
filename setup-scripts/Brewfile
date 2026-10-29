@@ -10,14 +10,12 @@ tap "rxseger/hackrf"
 tap "symfony-cli/tap"
 # Driver and tools for a software-defined radio
 brew "airspy"
-# Color management engine supporting ICC profiles
-brew "little-cms2"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Cross-platform make
 brew "cmake"
+# Color management engine supporting ICC profiles
+brew "little-cms2"
 # Graphics library to dynamically manipulate images
 brew "gd"
 # General-purpose scripting language
@@ -26,15 +24,17 @@ brew "php"
 brew "composer"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# USB 3.0 Superspeed Software Defined Radio Source
+brew "libbladerf"
 # Use Realtek DVB-T dongles as a cheap SDR
 brew "librtlsdr"
-# ADS-B Ground Station System for RTL-SDR
-brew "dump1090-mutability"
+# FlightAware ADS-B Ground Station System for SDRs
+brew "dump1090-fa"
 # Simple command-line tool for creating clusters on Amazon EKS
 brew "eksctl"
 # Make creating custom firmwares for ESP32/ESP8266 super easy
 brew "esphome"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
@@ -46,8 +46,6 @@ brew "pkgconf"
 brew "py3cairo"
 # GNOME Python bindings (based on GObject Introspection)
 brew "pygobject3"
-# SoapySDR RTL-SDR Support Module
-brew "soapyrtlsdr"
 # SDK for signal processing blocks to implement software radios
 brew "gnuradio"
 # Open source programming language to build simple/reliable/efficient software
@@ -66,8 +64,6 @@ brew "icu4c@76"
 brew "iperf3"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# USB 3.0 Superspeed Software Defined Radio Source
-brew "libbladerf"
 # Web and API based SMTP testing tool
 brew "mailhog", restart_service: :changed
 # Mac App Store command-line interface
@@ -82,6 +78,8 @@ brew "nmap"
 brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Multi-system computer simulator
+brew "open-simh"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Swiss-army knife of markup format conversion
@@ -92,8 +90,14 @@ brew "pipx"
 brew "powerlevel10k"
 # Python version management
 brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Generic machine emulator and virtualizer
 brew "qemu"
+# SoapySDR RTL-SDR Support Module
+brew "soapyrtlsdr"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # Soak up standard input and write to a file
@@ -118,10 +122,11 @@ brew "wireshark"
 brew "yarn"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-# Symfony CLI helps Symfony developers manage projects, from local code to remote infrastructure
-brew "symfony-cli/tap/symfony-cli"
-# AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Photography workflow application and raw developer
 cask "darktable"
 # Voice and text chat software
@@ -129,7 +134,7 @@ cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Dark theme for Steam
-cask "dracula-steam"
+cask "dracula/install/dracula-steam"
 # Web browser
 cask "firefox"
 cask "font-hack-nerd-font"
@@ -154,8 +159,6 @@ cask "netnewswire"
 cask "postman"
 # Ebook reader
 cask "readest"
-# Music streaming service
-cask "spotify"
 # System monitor for the menu bar
 cask "stats"
 # Video game digital distribution service
@@ -164,6 +167,8 @@ cask "steam"
 cask "stremio"
 # Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "AdGuard for Safari", id: 1440147259
@@ -177,7 +182,7 @@ vscode "eamodio.gitlens"
 vscode "ecmel.vscode-html-css"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-rename-tag"
-vscode "github.copilot"
+vscode "george-alisson.html-preview-vscode"
 vscode "github.copilot-chat"
 vscode "gitlab.gitlab-workflow"
 vscode "grapecity.gc-excelviewer"
@@ -194,6 +199,7 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpp-devtools"
 vscode "ms-vscode.cpptools"
 vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
@@ -212,3 +218,4 @@ vscode "wingrunr21.vscode-ruby"
 vscode "xabikos.javascriptsnippets"
 vscode "xdebug.php-debug"
 vscode "xdebug.php-pack"
+go "github.com/terraform-google-modules/terraform-example-foundation/helpers/foundation-deployer"
